@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Abanoub Nageh"
     tagline = "Internship Doctor"
     graduation = "Graduated 2025 - Egyptian Russian University"
-    profile_image = "https://github.com/user-attachments/assets/b912fcaf-26de-4627-8f89-0a7d431395b4"
+    profile_image = "https://github.com/user-attachments/assets/aefc5c6c-520c-47cb-80ae-9c157c48b256"
     profile_image_alt = "Profile photo of Dr. Abanoub Nageh"
     
     [params.hero.current_position]
