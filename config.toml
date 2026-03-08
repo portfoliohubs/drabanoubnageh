@@ -1,0 +1,369 @@
+baseURL = "https://portfoliohubs.github.io/drabanoubnageh/"
+languageCode = "en-us"
+title = "Dr. Abanoub Nageh"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Abanoub Nageh"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Egyptian Russian University"
+    profile_image = "https://github.com/user-attachments/assets/acf7989d-2ed4-486e-9c00-d8b4c2be058c"
+    profile_image_alt = "Profile photo of Dr. Abanoub Nageh"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Egyptian Russian University"
+
+  [params.seo]
+    description = "دكتور ابانوب ناجح طبيب اسنان بالقاهرة"
+    doctor_name_en = "Dr. Abanoub Nageh"
+    doctor_name_ar = "د. ابانوب ناجح"
+    site_name = "Dr. Abanoub Nageh"
+    og_image = "https://github.com/user-attachments/assets/767756ef-b792-4d48-bee8-178379e95a0f"
+    favicon_image = "https://github.com/user-attachments/assets/767756ef-b792-4d48-bee8-178379e95a0f"
+    twitter_handle = ""
+    keywords = [
+      "dentist",
+      "dental clinic",
+      "cosmetic dentistry",
+      "restorative dentistry",
+      "Dr. Abanoub Nageh",
+      "Cairo",
+      "Egyptian Russian University",
+      "DENTIST IN CAIRO",
+      "DENTAL CLINIC IN CAIRO",
+      "DENTAL CLINIC"
+    ]
+    keywords_ar = [
+      "طبيب أسنان",
+      "عيادة أسنان",
+      "تجميل الأسنان",
+      "ترميم الأسنان",
+      "د. ابانوب ناجح",
+      "طبيب بالقاهرة",
+      "عيادة بالقاهرة",
+      "دكتور ابانوب ناجح",
+      "عيادة ابانوب ناجح",
+      "abanoub nageh اسنان"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "Endodontics",
+      "Operative",
+      "Fixed",
+      "Esthetics",
+      "Surgery",
+      "Pedo"
+    ]
+    
+    digital = [
+      "Powerpoint",
+      "Dental photography",
+      "Editing",
+      "Microsoft programs"
+    ]
+    
+    soft = [
+      "pediatric patients management",
+      "Time management",
+      "Problem solving",
+      "Management of nervous patients"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Egyptian Russian University"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "graduated from faculty of dentistry"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics and Operative"
+    category_ar = "اندو واوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/01f45097-dc9d-456e-adbc-4f5797a25450"
+      alt = "Endodontic treatment and composite restoration to the lower first molar"
+      description = "Endodontic treatment and composite restoration to the lower first molar"
+      alt_ar = "حشو عصب و حشو نهائي بنفس لون السنة للضرس الاول السفلي"
+      description_ar = "حشو عصب و حشو نهائي بنفس لون السنة للضرس الاول السفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endodontics and Operative"
+    category_ar = "اندو واوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d0df0638-d369-4c12-895a-7f43987ba340"
+      alt = "Endodontic treatment and composite restoration to the lower first molar"
+      description = "Endodontic treatment and composite restoration to the lower first molar"
+      alt_ar = "حشو عصب وحشو نهائي بلون السنة للضرس الاول السفلي"
+      description_ar = "حشو عصب وحشو نهائي بلون السنة للضرس الاول السفلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/f8e96186-3e4f-45ee-8a4d-f455361b665e"
+      alt = "Retreatment of old amalgam restoration and class II composite restoration"
+      description = "Retreatment of old amalgam restoration and class II composite restoration"
+      alt_ar = "ازالة حشو معدن قديم والتسوس الناتج عنه وحشو الضرس بحشو ليزر بنفس لون الاسنان"
+      description_ar = "ازالة حشو معدن قديم والتسوس الناتج عنه وحشو الضرس بحشو ليزر بنفس لون الاسنان"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/1266a881-12c5-4b97-afe0-be608d01d729"
+      alt = "Deep caries management with selective caries removal and filled with ever-x and composite restoration"
+      description = "Deep caries management with selective caries removal and filled with ever-x and composite restoration"
+      alt_ar = "ازالة تسوس عميق قبل الوصول للعصب وحشو الضرس بحشو ليزر بنفس لون الاسنان مع اضافة مواد لتدعيم الضرس"
+      description_ar = "ازالة تسوس عميق قبل الوصول للعصب وحشو الضرس بحشو ليزر بنفس لون الاسنان مع اضافة مواد لتدعيم الضرس"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/dd648f08-56e6-463e-86a4-2ca17c6465a0"
+      alt = "ClassV composite restoration for upper canine"
+      description = "ClassV composite restoration for upper canine"
+      alt_ar = "حشو تجميلي للناب"
+      description_ar = "حشو تجميلي للناب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/3ecc7728-c0b4-4292-9320-49cdd008ce5b"
+      alt = "Class II back to back"
+      description = "Class II back to back"
+      alt_ar = "حشو عادي بحشو ليزر لتسوس خفي بين ضرسين"
+      description_ar = "حشو عادي بحشو ليزر لتسوس خفي بين ضرسين"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/8f17fc75-2440-4110-ac6a-f31b1a30427d"
+      alt = "Deep caries management with selective caries removal"
+      description = "Deep caries management with selective caries removal"
+      alt_ar = "ازالة تسوس عميق وحشو الضرس بحشو ليزر بدون الوصول للعصب"
+      description_ar = "ازالة تسوس عميق وحشو الضرس بحشو ليزر بدون الوصول للعصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontology"
+    category_ar = "Periodontology"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/4007141e-e572-48ed-8022-7580e13f4850"
+      alt = "Scaling and polishing"
+      description = "Scaling and polishing"
+      alt_ar = "تنظيف جير وازلة تصبعات الاسنان"
+      description_ar = "تنظيف جير وازلة تصبعات الاسنان"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01125629507"
+    whatsapp = "01125629507"
+    email = "abanobnageh48@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/14XHvhnUd9R/?mibextid=wwXIfr"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "القاهرة- مدينة بدر( الحي الثاني ) - الجامعة المصرية الروسية"
+      latitude = "30.14214811953848"
+      longitude = "31.718554663543372"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. ابانوب ناجح"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - الجامعة المصرية الروسية"
+    profile_image_alt = "صورة الملف الشخصي للدكتور ابانوب ناجح"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "الجامعة المصرية الروسية"
+  
+[params.ar.skills]
+    clinical = [
+      "حشو العصب",
+      "الجراحة",
+      "الحشو العادي",
+      "الحشوات التجميلية",
+      "التركيبات الثابتة",
+      "اطفال"
+    ]
+    
+    digital = [
+      "Powerpoint",
+      "Dental photography",
+      "Editing",
+      "Microsoft programs"
+    ]
+    
+    soft = [
+      "ادارة الوقت",
+      "التعامل مع المرضي المتوترين",
+      "التعامل مع الاطفال وعلاجهم",
+      "ايجاد حلول لجميع المشاكل"
+    ]
+    
+  
+  [params.ar.education]
+    university = "الجامعة المصرية الروسية"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "دخول الكلية 2020"
+    
+    [[params.ar.education.timeline]]
+      event = "التخرج من الكلية 2025"  
+
+  [params.ar.contact.location]
+    address = "القاهرة- مدينة بدر( الحي الثاني ) - الجامعة المصرية الروسية"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
