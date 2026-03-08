@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Abanoub Nageh"
     tagline = "Internship Doctor"
     graduation = "Graduated 2025 - Egyptian Russian University"
-    profile_image = "https://github.com/user-attachments/assets/acf7989d-2ed4-486e-9c00-d8b4c2be058c"
+    profile_image = "https://github.com/user-attachments/assets/b912fcaf-26de-4627-8f89-0a7d431395b4"
     profile_image_alt = "Profile photo of Dr. Abanoub Nageh"
     
     [params.hero.current_position]
@@ -165,11 +165,6 @@ defaultContentLanguage = "en"
       description = "Endodontic treatment and composite restoration to the lower first molar"
       alt_ar = "حشو عصب و حشو نهائي بنفس لون السنة للضرس الاول السفلي"
       description_ar = "حشو عصب و حشو نهائي بنفس لون السنة للضرس الاول السفلي"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics and Operative"
-    category_ar = "اندو واوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/d0df0638-d369-4c12-895a-7f43987ba340"
@@ -189,11 +184,6 @@ defaultContentLanguage = "en"
       description = "Retreatment of old amalgam restoration and class II composite restoration"
       alt_ar = "ازالة حشو معدن قديم والتسوس الناتج عنه وحشو الضرس بحشو ليزر بنفس لون الاسنان"
       description_ar = "ازالة حشو معدن قديم والتسوس الناتج عنه وحشو الضرس بحشو ليزر بنفس لون الاسنان"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/1266a881-12c5-4b97-afe0-be608d01d729"
@@ -201,11 +191,6 @@ defaultContentLanguage = "en"
       description = "Deep caries management with selective caries removal and filled with ever-x and composite restoration"
       alt_ar = "ازالة تسوس عميق قبل الوصول للعصب وحشو الضرس بحشو ليزر بنفس لون الاسنان مع اضافة مواد لتدعيم الضرس"
       description_ar = "ازالة تسوس عميق قبل الوصول للعصب وحشو الضرس بحشو ليزر بنفس لون الاسنان مع اضافة مواد لتدعيم الضرس"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/dd648f08-56e6-463e-86a4-2ca17c6465a0"
@@ -213,11 +198,6 @@ defaultContentLanguage = "en"
       description = "ClassV composite restoration for upper canine"
       alt_ar = "حشو تجميلي للناب"
       description_ar = "حشو تجميلي للناب"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/3ecc7728-c0b4-4292-9320-49cdd008ce5b"
@@ -225,11 +205,6 @@ defaultContentLanguage = "en"
       description = "Class II back to back"
       alt_ar = "حشو عادي بحشو ليزر لتسوس خفي بين ضرسين"
       description_ar = "حشو عادي بحشو ليزر لتسوس خفي بين ضرسين"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/8f17fc75-2440-4110-ac6a-f31b1a30427d"
