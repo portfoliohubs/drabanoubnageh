@@ -242,7 +242,7 @@ defaultContentLanguage = "en"
   # Contact Section
   [params.contact]
     phone = "01125629507"
-    whatsapp = "01125629507"
+    whatsapp = "+201125629507"
     email = "abanobnageh48@gmail.com"
     instagram = ""
     facebook = "https://www.facebook.com/share/14XHvhnUd9R/?mibextid=wwXIfr"
